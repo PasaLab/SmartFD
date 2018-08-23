@@ -1,6 +1,6 @@
 # SmartFD
 
-SmartFD is an efficient and scalable algorithm for discovering all minimal, non-trival functional dependencies(FDs) from large-scale distributed datasets. Furthermore, SmartFD is built on the widely-used distributed data-parallel platform Apache Spark.
+SmartFD is an efficient and scalable algorithm for discovering all minimal, non-trival functional dependencies (FDs) from large-scale distributed datasets. Furthermore, SmartFD is built on the widely-used distributed data-parallel platform Apache Spark.
 
 # News
 
