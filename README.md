@@ -1,6 +1,6 @@
 # SmartFD
 
-SmartFD is an efficient and scalable algorithm for discovering all minimal, non-trival funtional dependencies(FDs) from large-scale distributed datasets. Furthermore, SmartFD is built on the widely-used distributed data-parallel platform Apache Spark.
+SmartFD is an efficient and scalable algorithm for discovering all minimal, non-trival functional dependencies(FDs) from large-scale distributed datasets. Furthermore, SmartFD is built on the widely-used distributed data-parallel platform Apache Spark.
 
 # News
 
@@ -14,7 +14,7 @@ SmartFD won the first place in [the 4th National University Cloud Computing Appl
 
 ## Compile
  
-SmartFD is built using [sbt](https://www.scala-sbt.org/). We have offered a default **build.sbt** file to manage the whole project. Make sure you have installed sbt and you can just run `sbt assembly` in the root directory to get an assembly jar in the `target/scala-2.10` directory. Note that the default Spark version and Hadoop version used are defined in the file **build.sbt**, you can modify it if necessaryTo build SmartFD.
+SmartFD is built using [sbt](https://www.scala-sbt.org/). We have offered a default **build.sbt** file to manage the whole project. Make sure you have installed sbt and you can just run `sbt assembly` in the root directory to get an assembly jar in the `target/scala-2.10` directory. Note that the default Spark version and Hadoop version are defined in the file **build.sbt**, you can modify it if necessary.
 
 The compiled jar is available at `target/scala-2.10/SparkFD-assembly-1.0.jar`
 
@@ -42,13 +42,13 @@ For instance, run SmartFD with the following command:
 
  The run command contains the following parameters:
 
-- `<inputFilePath>: The input data path on HDFS.
+- `<inputFilePath>`: The input data path on HDFS.
 - `<tempFilePath>`: The temporary data path on HDFS..
 - `<numAttributes>`: The number of attributes of the input dataset.
 - `<numPartition>`: The computation parallelism on Spark.
 - `<outputFilePath>`: The output data path on HDFS.
 
-**Note:** The parameters configured in the run command have higher priority than those in the configuration file. To find more information about the configuration file, please refer to the [Configuration File].
+**Note:** The parameters configured in the run command have higher priority than those in the configuration file. To find more information about the configuration file, please refer to the [Configuration File](https://github.com/PasaLab/SmartFD/blob/master/src/main/scala/pasa/bigdata/nju/smartfd/conf/Conf.scala).
 
 
 ## Demo
