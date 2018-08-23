@@ -1,0 +1,4 @@
+[column1,column2,column3]:column5
+[column1,column2,column4]:column5
+[column1,column3,column4]:column5
+[column2,column3,column4]:column5
