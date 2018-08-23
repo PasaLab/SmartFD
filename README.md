@@ -43,7 +43,7 @@ For instance, run SmartFD with the following command:
  The run command contains the following parameters:
 
 - `<inputFilePath>`: The input data path on HDFS.
-- `<tempFilePath>`: The temporary data path on HDFS..
+- `<tempFilePath>`: The temporary data path on HDFS.
 - `<numAttributes>`: The number of attributes of the input dataset.
 - `<numPartition>`: The computation parallelism on Spark.
 - `<outputFilePath>`: The output data path on HDFS.
